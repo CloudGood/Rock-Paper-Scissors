@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/af08e3a488.js" crossorigin="anonymous"></script>
+    <title>Rock | Paper | Scissors</title>
+</head>
+<body>
+
+
+
+<header class="header"></header>
+
+<main class="main">
+
+    <div class="welcome">
+        <div class="welcome_container">
+            <h1 class="welcome_h1">Human vs Computer</h1>
+            <p class="welcome_p">Begin!</p>
+        </div>
+    </div>
+
+    <div class="who_won">
+        <div class="who_won_container">
+            <p id="game_over"></p><br><br>
+            <p id="who_won_text"></p>
+        </div>
+    </div>
+
+    <div class="playerselection">
+        <div class="playerselectioncontainer">
+            <button id="rock"  class="btn" value="rock"><i class="fa-solid fa-hand-back-fist fa-2xl gold_btn"></i></button>
+            <button id="paper" class="btn" value="paper"><i class="fa-solid fa-hand fa-2xl gold_btn"></i></button>
+            <button id="scissors" class="btn" value="scissors"><i class="fa-solid fa-hand-scissors fa-2xl gold_btn"></i></button>
+        </div>
+        <div class="optionsbtns">
+            <button id="reset" class="reset_btn option_btn" value="reset">reset</button>
+            <!---<button id="result" class="result_btn option_btn" value="result">Show result</button>--->
+        </div>
+    </div>
+</main>
+<footer class="footer"></footer>
+<div class="result" id="showresultbanner">
+    <p class="result-title" id="showresultMsg"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
